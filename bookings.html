@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Bookings</title>
+    <link rel = "stylesheet" href = "bookings.css" />
+  </head>
+  <body>
+    <div class="main-container">
+        <div></div>
+        <h1 class="head">Book Your Flight Here:</h1>
+        <div class="flight-container">
+            <div class="second-cont">
+                <div class="input-container">
+                    <label class="label" htmlFor = "placeInput">Place:</label>
+                    <input type = "text" id = "placeInput" class="input" placeholder="Enter Place" />
+                </div>
+    
+                <div class="input-container">
+                    <label class="label" htmlFor = "dateInput">Date:</label>
+                    <input type = "date" id = "dateInput" class="input" />
+                </div>
+    
+                <button class="btn" onclick="redirectToFlightBooked()">Book Flight</button>    
+            </div>
+            <img src = "https://www.wallpapertip.com/wmimgs/58-580673_flight-hd-wallpaper.png" class="flight-image" />
+            </div>
+
+            <h1 class="head">Book Your Hotel Here:</h1>
+            <div class="flight-container">
+                <div class="second-cont">
+                    <div class="input-container">
+                        <label class="label" htmlFor = "typeInput">Type:</label>
+                        <select class="input">
+                            <option>1BHK</option>
+                            <option>2BHK</option>
+                            <option>3BHK</option>
+                            <option>Villa</option>
+                            
+                        </select>
+                    </div>
+        
+                    <div class="input-container">
+                        <label class="label" htmlFor = "dateInput">Date:</label>
+                        <input type = "date" id = "dateInput" class="input" />
+                    </div>
+        
+                    <button class="btn" onclick="redirectToHotelBooked()">Book Hotel</button>    
+                </div>
+                <img src = "https://tse1.mm.bing.net/th?id=OIP.-y33HaHKGwFepW3WHTeg6AHaFj&pid=Api&P=0&h=180" class="flight-image" />
+            
+        </div>
+
+        <script>
+            function redirectToFlightBooked() {
+                window.location.href = 'flightBooked.html';
+            }
+            function redirectToHotelBooked() {
+                window.location.href = 'hotelBooked.html';
+            }
+
+        </script>
+
+  </body>
+</html>
