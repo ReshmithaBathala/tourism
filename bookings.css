@@ -1,0 +1,84 @@
+.main-container {
+  background-image: url("https://wallpaperset.com/w/full/2/e/d/38663.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.flight-container {
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-cont {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.label {
+  color: green;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input {
+  color: black;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  background-color: transparent;
+  width: 60%;
+  border-radius: 5px;
+  height: 36px;
+}
+
+.btn {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #f16735;
+  border: 0px solid transparent;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  height: 40px;
+  width: 90px;
+}
+
+.flight-image {
+  height: 60%;
+  width: 50%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-right: 15px;
+}

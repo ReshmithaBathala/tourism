@@ -1,0 +1,45 @@
+.app-container {
+  background-color: grey;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  border: 2px solid white;
+  width: 80%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-cont {
+  display: flex;
+}
+
+.tick {
+  height: 30px;
+  width: 30px;
+  margin-top: 24px;
+  margin-left: 8px;
+}
+
+p {
+  color: white;
+  font-family: "Roboto";
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.head {
+  color: white;
+  font-family: "Roboto";
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}

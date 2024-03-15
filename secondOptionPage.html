@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SecondPage</title>
+    <link rel="stylesheet" href="secondOptionPage.css" />
+  </head>
+  <body>
+    <div class="second-page-container">
+      <div class="each-item">
+        <h1 class="head">Holiday Packages:</h1>
+        <img
+          src="http://www.outstandingcolleges.com/wp-content/uploads/2015/02/tour-packages.jpg"
+          class="image"
+        />
+        <button onclick="redirectToHolidayPackages()" class="btn">
+          View Holiday Packages
+        </button>
+      </div>
+
+      <div class="each-item">
+        <h1 class="head">Package Collections:</h1>
+        <img
+          src="https://travelworldhub.com/wp-content/uploads/2017/05/How-to-pick-the-best-tourism-package.jpg"
+          class="image"
+        />
+        <button class="btn" onclick="redirectToPackageCollections()">
+          View Package Collections
+        </button>
+      </div>
+    </div>
+
+    <script>
+      function redirectToHolidayPackages() {
+        // Redirect to another page
+        window.location.href = "tourPackages.html";
+      }
+
+      function redirectToPackageCollections() {
+        window.location.href = "packageCollections.html";
+      }
+    </script>
+  </body>
+</html>
